@@ -1,0 +1,43 @@
+@import url("mclibre-pie.css");
+
+@import url("https://fonts.googleapis.com/css?family=Ribeye+Marrow");
+
+@import url("https://fonts.googleapis.com/css?family=Just+Another+Hand");
+
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+body {
+  background-color: hwb(47 32% 2%);
+}
+
+h1 {
+  font-family: "Ribeye Marrow";
+  font-size: 50px;
+  letter-spacing: 1.5rem;
+  text-align: center;
+}
+
+p.centro{
+  margin-left: 25%;
+  margin-right: 25%;
+  line-height: 200%;
+}
+
+p.latin {
+  margin: 0;
+  font-family: "Lobster", sans-serif;
+  font-size: 40px;
+}
+
+p.español {
+  margin: 0 0 48px;
+  color: white;
+  font-family: "Just Another Hand", sans-serif;
+  font-size: 55px;
+  letter-spacing: 1px;
+  text-align: right;
+}
+
+span {
+  text-decoration: underline;
+}
